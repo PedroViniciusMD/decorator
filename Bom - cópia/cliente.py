@@ -15,8 +15,10 @@ slack = NotificadorSlack(NotificadorBase())
 #slack.enviar("sua casa está pegando fogo")
 
 email_sms = NotificadorSMS(NotificadorEmail(NotificadorBase()))
-
 email_sms.enviar("sua casa está pegando fogo")
+#print("--------------------------------------")
+sms_email = NotificadorEmail(NotificadorSMS(NotificadorBase()))
+#sms_email.enviar("sua casa está pegando fogo")# a ordem de envelopamento pode importar
 
 '''
 NotificadorSMS.enviar()

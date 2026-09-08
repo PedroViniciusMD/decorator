@@ -34,7 +34,7 @@ class NotificadorSMSFacebookSlack(Notificador):
 
 # Email + SMS + Slack + Facebook
 
-# e se o cliente preferir receber a mensagem via WhatsApp?
+# --> e se o cliente preferir receber a mensagem via WhatsApp?
 # WhatsApp
 # Email + WhatsApp
 # SMS + WhatsApp
